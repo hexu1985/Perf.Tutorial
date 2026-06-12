@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # 创建存放数据和结果的目录
+rm -rf perf_result
 mkdir -p perf_result
 
 # 以 99Hz 频率采样 CPU 事件，记录调用栈，持续30秒
